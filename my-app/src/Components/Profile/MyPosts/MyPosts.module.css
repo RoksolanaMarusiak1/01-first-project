@@ -1,0 +1,35 @@
+
+.posts {
+    margin-top: 3rem;
+}
+
+.postInput{
+    width: 750px;
+    padding: 60px 0 0 0;
+    margin: 0 auto;
+}
+button.postButton {
+	border: 0;
+	padding: 10px;
+	width: 750px;
+	border-radius: 3px;
+	background: #94c2ed;
+	font-family: "Bree Serif", sans-serif;
+	font-size: 1rem;
+	margin: 5px 2px;
+	cursor: pointer;
+	outline: none;
+	margin-bottom: 10px;
+	transition: .3s ease-in-out;
+	box-shadow: 0px 5px 7px 8px rgba(0,0,0,.3);
+	color: #fff;
+
+}
+postButton {
+	background: #3498DB ;
+}
+
+button.postButton i
+{
+	margin-right: 5px;
+}

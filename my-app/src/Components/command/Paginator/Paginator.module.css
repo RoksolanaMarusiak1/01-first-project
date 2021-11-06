@@ -1,0 +1,35 @@
+
+.data_pagination {
+    font-size: 8pt;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    margin: 1em auto;
+    text-align: center;
+    transition: font-size .2s ease-in-out;
+}
+
+.data_pagination span {
+    color: #777;
+    font-size: 2.5em;
+    padding: .5em;
+    align-items: center;
+}
+
+.data_pagination span:focus, .data_pagination span:hover {
+    color:  #2196f3;
+}
+
+.data_pagination .selectedPage {
+    background: rgba(0, 0, 0, .1);
+}
+
+.arrow{
+    color: #777;
+    font-size: 2em;
+}
+
+.arrow:hover{
+    color: #2196f3;
+}

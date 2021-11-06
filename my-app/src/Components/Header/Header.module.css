@@ -1,0 +1,62 @@
+.header {
+  grid-area: h;
+  background-color: #1c1d22;
+  z-index: 999;
+}
+
+.header img {
+  width: 60px;
+  margin-left: 20px;
+}
+
+
+.loginBlock {
+  float: right;
+}
+
+.loginBlock a {
+  color: white;
+}
+
+.header ul{
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header ul li{
+  color: #aaa;
+  float: left;
+  width: 190px;
+  height: 40px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.header ul li:hover{
+  color: #2196f3;
+}
+
+ul li ul li{
+  display: none;
+}
+
+ul li:hover ul li{
+  display: block;
+  background-color: #1c1d22;
+}
+
+.logout_btn {
+  background-image: none; 
+  background-color: transparent;
+  color: #aaa;
+  outline: none;
+  border: 0;
+  width: 200px;
+  font-size: 0.5em;
+}
+
+.logout_btn:hover {
+  color: #2196f3;
+}

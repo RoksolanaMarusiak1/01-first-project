@@ -1,0 +1,111 @@
+
+.login_form {
+    background: rgba(89, 177, 240, 1);
+}
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: rgba(89, 177, 240, 1);
+  border-radius: 20px;
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+}
+.form-left-decoration:before {top: -20px;}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
+.form-inner {padding: 50px;}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family:'Roboto Slab', serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background:rgba(89, 177, 240, 1);
+  border-bottom: 4px solid rgba(17, 80, 125, 1);
+  color: white;
+  font-size: 20px;
+  font-family:'Roboto Slab', serif;
+}
+
+.form-inner input[type="submit"]:hover {
+  margin-top: 32px;
+  background:rgba(89, 177, 240, 1);
+  border-bottom: 2px solid rgba(17, 80, 125, 1);
+  color: white;
+  font-size: 20px;
+  font-family:'Roboto Slab', serif;
+  outline: none;
+}
+
+.form-inner input[type="submit"]:active {
+  margin-top: 34px;
+  background:rgba(89, 177, 240, 1);
+  border-bottom: 0;
+  color: white;
+  font-size: 20px;
+  font-family:'Roboto Slab', serif;
+  outline: none;
+}
+.form-inner textarea {resize: none;}
+.form-inner h3 {
+  margin-top: 0;
+  font-family:'Roboto Slab', serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}

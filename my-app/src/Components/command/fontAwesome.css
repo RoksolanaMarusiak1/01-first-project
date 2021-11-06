@@ -1,0 +1,27 @@
+.fa-star {
+    float: right;
+    color: #d8dadf;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.fa-file-o, .fa-file-image-o {
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+
+.online {
+    color: #86bb71;
+}
+.offline {
+    color: #e38968;
+}
+.me {
+    color: #94c2ed;
+}
+
+.online, .offline, .me {
+    margin-right: 3px;
+    font-size: 12px;
+}
